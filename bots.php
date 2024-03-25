@@ -7,7 +7,7 @@ if (isset($_SERVER['HTTP_USER_AGENT'])) {
 <?php } else { ?>
       // bot dışında gelen veri.
     <?php }
-} else {
+} else { ?<
   // bot dışında gelen veri.
-}
+<?php }
 ?>
